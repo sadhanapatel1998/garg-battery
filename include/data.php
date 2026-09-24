@@ -110,7 +110,10 @@ $products = [
 ];
 
 $gallery = [
-
+    [
+    "type" => "video",
+    "video" => "assets/images/gallery/garg-video.mp4"
+    ],
     [
         "image" => "assets/images/gallery/1.jpg",
         "link" => "assets/images/gallery/1.jpg",
@@ -171,6 +174,96 @@ $gallery = [
         "link" => "assets/images/gallery/12.jpg",
         "title" => "Gallery Image"
     ],
+    [
+    "image" => "assets/images/gallery/13.jpeg",
+    "link" => "assets/images/gallery/13.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/14.jpeg",
+    "link" => "assets/images/gallery/14.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/15.jpeg",
+    "link" => "assets/images/gallery/15.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/16.jpeg",
+    "link" => "assets/images/gallery/16.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/17.jpeg",
+    "link" => "assets/images/gallery/17.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/18.jpeg",
+    "link" => "assets/images/gallery/18.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/19.jpeg",
+    "link" => "assets/images/gallery/19.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/20.jpeg",
+    "link" => "assets/images/gallery/20.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/21.jpeg",
+    "link" => "assets/images/gallery/21.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/22.jpeg",
+    "link" => "assets/images/gallery/22.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/23.jpeg",
+    "link" => "assets/images/gallery/23.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/24.jpeg",
+    "link" => "assets/images/gallery/24.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/25.jpeg",
+    "link" => "assets/images/gallery/25.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/26.jpeg",
+    "link" => "assets/images/gallery/26.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/27.jpeg",
+    "link" => "assets/images/gallery/27.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/28.jpeg",
+    "link" => "assets/images/gallery/28.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/29.jpeg",
+    "link" => "assets/images/gallery/29.jpeg",
+    "title" => "Gallery Image"
+],
+[
+    "image" => "assets/images/gallery/30.jpeg",
+    "link" => "assets/images/gallery/30.jpeg",
+    "title" => "Gallery Image"
+]
 
 ]
 

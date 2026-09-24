@@ -150,7 +150,7 @@
                       +01127940873
                     </a>
                   </li>
-                  <li><a href="/cdn-cgi/l/email-protection#274e49414867504245544e53420944484a"><i class="fa fa-envelope-o me-2" aria-hidden="true"></i> <span class="__cf_email__" data-cfemail="274e49414867425143554e51425f0944484a">[email&#160;protected]</span></a></li>
+                  <!-- <li><a href="/cdn-cgi/l/email-protection#274e49414867504245544e53420944484a"><i class="fa fa-envelope-o me-2" aria-hidden="true"></i> <span class="__cf_email__" data-cfemail="274e49414867425143554e51425f0944484a">[email&#160;protected]</span></a></li> -->
                 </ul>
               </div>
             </div>

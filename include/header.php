@@ -7,10 +7,10 @@
             <div class="col-lg-6">
               <div class="header-top-left">
                 <ul class="list-unstyled d-flex">
-                  <li class="me-4">
+                  <!-- <li class="me-4">
                     <a href="mailto:">
                       <i class="fa fa-envelope-o me-2" aria-hidden="true"></i> 
-                      <span class="__cf_email__" data-cfemail="d2bbbcb4bd92a5b7b0a1bba6b7fcb1bdbf">[email&#160;protected]</span></a></li>
+                      <span class="__cf_email__" data-cfemail="d2bbbcb4bd92a5b7b0a1bba6b7fcb1bdbf">[email&#160;protected]</span></a></li> -->
                   <li>
                     <i class="fa fa-clock-o" aria-hidden="true"></i>
                     Working Hours: Everyday 9:30 AM – 8:30 PM

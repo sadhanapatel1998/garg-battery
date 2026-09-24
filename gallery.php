@@ -34,10 +34,31 @@ include('include/data.php');
         <div class="gallery-inner">
             <div id="animated-thumbnails" class="gallery-container">
                 <?php foreach ($gallery as $item): ?>
-                    <a href="<?= $item['image']; ?>" class="gallery-item mid position-relative">
-                        <img src="<?= $item['image']; ?>" alt="<?= $item['image']; ?>" class="rounded2 border border-3 border-lightgreen position-relative">
-                        <span class="overlay rounded2"></span>
-                    </a>
+
+                    <?php if (($item['type'] ?? 'image') === 'video'): ?>
+
+                        <div class="gallery-item mid position-relative">
+                            <video class="rounded2 border border-3 border-lightgreen"
+                                controls
+                                muted
+                                playsinline
+                                preload="metadata">
+                                <source src="<?= $item['video']; ?>" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    <?php else: ?>
+
+                        <a href="<?= $item['image']; ?>" class="gallery-item mid position-relative">
+                            <img src="<?= $item['image']; ?>"
+                                alt="<?= $item['title']; ?>"
+                                class="rounded2 border border-3 border-lightgreen position-relative">
+                            <span class="overlay rounded2"></span>
+                        </a>
+
+                    <?php endif; ?>
+
                 <?php endforeach; ?>
             </div>
         </div>
